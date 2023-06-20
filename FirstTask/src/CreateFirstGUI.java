@@ -43,7 +43,7 @@ public class CreateFirstGUI extends JFrame{
                 try {
                     outputTextField.setText(inputNumber(Integer.parseInt(inputTextField.getText())));
                 } catch (Exception ex) {
-                    outputTextField.setText ("Вы ввели не число");
+                    outputTextField.setText ("Вы ошиблись");
                 }
             }
             else if (e.getSource() == clearButton) {

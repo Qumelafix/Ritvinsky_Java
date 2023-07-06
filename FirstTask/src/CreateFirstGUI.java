@@ -52,7 +52,8 @@ public class CreateFirstGUI extends JFrame{
             }
         }
     }
-    public String inputNumber(int val) {
-        return val > 7 ? "Привет" : "Попробуйте ввести число больше 7";
+    public String inputNumber(double val) {
+
+        return val > 7.0 ? "Привет" : "Попробуйте ввести число больше 7";
     }
 }
